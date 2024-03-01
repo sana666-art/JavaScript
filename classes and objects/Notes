@@ -1,0 +1,129 @@
+// A way to create objects directly:
+const student = {
+    fullName : "Sana Khalid",
+    marks: 96.8,
+    printMarks: function() {
+        console.log("marks = ", this.marks);
+    },
+};
+
+// OBJECT DEFINITION:
+//     A javaScript object is an entity having state and behavior (properties and method).
+
+// Prototypes in JS:
+//     JS objects have a special property called prototype.
+//     We can set prototype using _ _ proto _ _
+
+// All Object in js inherites some built-in function and method from the prototype objects by defluat.
+
+// the type of prototype = reference to an object or null
+
+// Classes in JS
+//     1-Those objects will have some state (variables) & some behaviour (functions) inside it.
+//     2-Class is a program-code template for creating objects.
+//     3-we use class when we have to create same template for multiple objects.
+//     Example:
+            class MyClass {
+                constructor( ) { ... }
+                myMethod( ) { ... }
+            }
+            let myObj = new MyClass( ) ;
+
+//     Constructor( ) method is :
+//         automatically invoked by new Keyboard.
+//         initializes object whenever a new obj is created.
+
+// Inheritance in JS
+//     inheritance is passing down properties & methods from parent class to child class.
+//     Keyboard --> extends
+//     Examples:
+            class Parent {
+
+            }
+            class Child extends Parent {
+
+            }
+
+// note:
+// If Child & Parent have same method, child’s
+// method will be used. [Method Overriding]
+// Example:
+class person{
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");
+    }
+    work(){
+        console.log("do nothing");
+    }
+}
+
+class Engineer extends person {
+    work(){
+        console.log("Solve Problem, Build something");
+    }
+}
+super Keyword:
+    The super keyword is used to call the constructor of its parent class to access the parent's
+    properties and methods.
+
+    super.parentMethod( args )
+    super( args ) // calls Parent‘s constru
+
+
+// Error Handling
+//     try-catch blocks
+
+//     try {
+
+//     ... normal code
+
+//     } catch ( err ) { //err is error object
+
+//     ... handling error
+
+//     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,229 @@
+JS is a
+1-dynamically typed language
+2-case sensitive
+3- most popular
+
+alert("wellcome to google");
+Display whenever a website is opened.
+
+prompt("Enter name: ");
+take temperary input
+
+
+Variable names are case sensitive; 
+“a” & “A” is different.
+Only letters, digits, underscore( _ ) and $ is allowed. (not even space)
+Only a letter, underscore( _ ) or $ should be 1st character.
+
+var: variable can be re declared and updated. A global scope variable
+let: variable cannot be re declared but can be updated. A block scope variable
+const: variable cannot be re declared or updated. A global scope variable
+
+data types:
+1- primitive datatypes
+    String
+    Boolean
+    Number
+    undefined
+    null
+    BigInt
+    symbol
+
+2- nonprimitive data types
+    Array
+    objects ---> colllection of values ---> Key : value
+    {
+        const student = {
+            fullName: "Sana Khalid",
+            age: 20,
+            cgpa: 3.4,
+            ispass: true,
+        };
+        console.log(student.age);
+        console.log(student["age"])
+    }
+
+print:
+    console.log("hello world");
+    console.log("Sana Khalid");
+
+OPERATORS:
+arithamic operators:
+    add +
+    sub -
+    divide /
+    multiplication *
+    mode %
+    exponential **
+
+unary operators:
+    increment
+    a++ //post inc
+    ++a //pre inc
+
+    decrement
+    b-- //post dec
+    --b //pre dec
+
+assignment operators
+    a += 4;
+    a -= 4;
+    a /= 4;
+    a *= 4;
+    a **= 4;;
+    a %= 4;
+
+comperision operators
+    >, >=, </, <=, ==, !=, === and !==  
+    equal and datatype checked-- use triple =.
+
+logical operators
+    && --> and 
+    || --> OR 
+    ! --> not 
+
+conditional statements
+    if, else if, else 
+
+ternary operators
+    simpler and compact if-else
+    let age= 24;
+    eg:
+    result= age >=18 ? "adult" : "not adult";
+switch cases
+MDN DOCOMENTATION, it is like a w3school.
+
+loops:
+    Loops are used to execute a piece of code again & again
+
+1-for loop:
+    for (let i = 1; i <= 5; i++) {
+        console.log("apna college");
+    }
+2- while loop:
+    while (condition){
+        do some work
+    }
+3-do while loop:
+    do{
+        do some work
+    }while (condition);
+4-for-of loop:
+    for-of loop use to iterate string and array.
+    for(let i of str){
+        do some work
+    }
+5- for-in loop:
+    for-in loop use to iterate Objrcts(key : value).
+    for (let key in student) {
+        do some work
+    }
+
+string is immutable data type
+string slice: 
+indexing start from 0. and from right side it's start with -1
+
+
+template literals
+    a way to have embedded expressions in strings.
+    e.g:
+    let output = `The cost of ${obj.item} is ${obj.price} rupees.`;
+    {obj.item} --> string interpolation
+    to create strings by doing substitution of placeholders
+
+String Methods in JS:
+These are built-in functions to manipulate a string
+    str.toUpperCase( )
+    str.toLowerCase( )
+    str.trim( ) // removes whitespaces
+    str.slice(start, end?) // returns part of string
+    str1.concat( str2 ) // joins str2 with str1
+    str.replace( searchVal, newVal )
+    str.charAt( idx )
+
+ARRAY:
+    special type of object in js.
+    Collections of items. --> values stored in linear fashion
+    store relatable information
+    arrays in js are mutetable
+
+slicing of array:
+    console.log(marks[0]);
+    console.log(marks[5]);
+
+Array Methods
+    Push( ) : add to end
+    
+    Pop( ) : delete from end & return
+    
+    toString( ) : converts array to string
+    
+    Concat( ) : joins multiple arrays & returns result
+    
+    Unshift( ) : add to start
+    
+    shift( ) : delete from start & return
+    
+    Slice( ) : returns a piece of the array
+    slice( startIdx, endIdx )
+
+    Splice( ) : change original array (add, remove, replace)
+    splice( startIdx, delCount, newEl1... )
+
+Functions
+    Block of code that performs a specific task, can be invoked whenever needed
+    
+    function definition:
+        function functionName( ){
+            do some work
+        }
+
+        function functionName(parameter1, para2,... ){
+            do some work
+        }
+
+    function call
+        functionName();
+        functionName(parameter1, para2,...);
+
+function parameters --> like local variables --> block scope
+local variables --> scope --> within a functions
+
+Arrow Functions
+    Compact way of writing a function
+        const functionName = ( param1, param2 ...) => {
+            do some work
+        }   
+Arrow variable
+    (x, y) => {
+        return x - y;
+    }
+
+forEach Loop in Arrays:
+    arr.forEach( callBackFunction )
+    CallbackFunction : Here, it is a function to execute for each element in the array
+    -->A callback is a function passed as an argument to another function.
+
+js mai function as a parameter b pass ho sakhty hai
+or function ko js mai hum return b ker sakhty hai.
+assi liye js mai function special hoty hai
+these functions are known as higher order functions/Methods
+
+
+some more Array Methods
+
+1- Map:
+    similar to foreach loop, only difference is --> map return new array with the result of some operation  
+    Creates a new array with the results of some operation. The value its callback returns are
+    used to form new array
+    arr.map( callbackFnx( value, index, array ) )
+
+2- Filter
+    Creates a new array of elements that give true for a condition/filter.
+    create a copied array
+
+3- Reduce
+    Performs some operations & reduces the array to a single value. It returns
+    that single value. like avg, sum, ....
+
+    start with first two elements of the array

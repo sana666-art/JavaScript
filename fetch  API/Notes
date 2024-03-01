@@ -1,0 +1,23 @@
+fetch API:
+    API --> APPLICATION PROGRAMMING INTERFACE
+
+    the fetch API privodes interface for fetching (sending/receiving) resources.
+    it uses request and response objects.
+    the fetch() method is used to fetch a resource(data).
+
+GET request --> jb hmhy API sy sirf data lana hoo and hmhy kuch dena nah ho API ko to wo get request hoti hai.
+
+AJAX is Asynchronous JS and XML
+JSON is JS Object Notation
+
+json() method:(asynchromous method) returns a second promise that resolves with the result of parsing the response body text as JSON. (input is JSON, output is JS object)
+
+llink for free apis:
+     https://free-apis.github.io/#/browse
+
+
+
+Resquest and Response:
+
+HTTP --> HYPER TEXT TRANSFER PROTOCOL
+HEADERS---> additional information.
