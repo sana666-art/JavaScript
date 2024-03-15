@@ -1,0 +1,120 @@
+<!--
+    lecture 1
+    1.sturcture
+    2. heading tags
+    3. hr tag for line - horizontal rulor
+    4. paragraph tag <p></p>
+    5. bold tag <b></b> and <u> underline tag
+    6. strong tag
+    diff b/w bold and strong tag:
+    The bold tags (<b>) are used just to make a piece of text visually bold in HTML. The strong tags (<strong>) are used to format text in HTML and show the importance of a certain part of the text by semantically highlighting it.
+    7. <i> itallic tag and <em> (emphasing) tag
+    8.<small> <big> tag
+    9.for exponential, we use supercript tag <sup>
+    10.for log base, we use subcript tag <sub>
+    11. list tag <li>
+        types of list
+        a. ordered list <ol> ---eg; 1,2,3,...
+        b. description list  
+        c. unordered list <ul> --eg: dots or steps
+    12. nesting of list
+    13.<pre> tag display spaces
+-->
+
+<!--
+    lecture 2
+    anchor tag <a>
+    1. hyper link -- <a> tag <a href=<..link/url..>>
+        url= uniform resource locator --always unique
+        types of url:
+        1.absolute--root location to destination 2.relative -- current location to destination
+        moving into the file location:
+        1. moving into the folders
+        2. files in the same folders---
+        3. moving out of the folders
+    2. image tag
+    3. video tag
+        autoplay
+        controls
+        loop
+        muted
+        poster="path/link"
+    3. <iframe> Element -- dosron ki websitesko apni websites mai la sakhty hai
+    4. table Element: <table></table>
+        tr= table's row
+        td = table's data
+        th = table's heading
+        rowspan -- mixed rows in a single row
+        colspan -- mixed cols in a single col
+    <table>
+        TABLE HEAD
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+        TABLE BODY--table ka content
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th rowspan="2">total</th>
+            </tr>
+        </tfoot>
+    </table>
+    5. SVG tag:
+        SVG stands for Scalable Vector Graphics
+        SVG is used to define graphics for the Web
+        The HTML <svg> element is a container for SVG graphics.
+
+        SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+        INLINE ELEMENT.
+
+-->
+<!--
+    lecture 3
+    web form
+    elements in form
+    input attributes
+    type = "text"(text,password, radio,checkbox, file, submit, reset, image)<--pre-defined value
+    name - "firstname" <-- User defined value
+    value = male
+    <textarea cols="100" rows="20">
+    <select>
+        <option value="delhi"> Delhi</option>
+        <option value="karachi"> karachi</option>
+        <option value="london"> london</option>
+        <option value="newyork"> newyork</option>
+    </select>
+-->
+<!--
+    lecture 4
+    1.Structure of web
+    2.semantic tags ---dekh ker matlab samaj ajyn
+     h1, h6, <Nav>,<footer> <main>,<header>.....
+    3. non sematic tags---
+     <div>, <span>.....
+    <div> --- it is a block level element--- pori ak horizontal line occupy hogai
+    <span> --- it is a inline element --- utna he space lyty hai jitna hmara content lyta hai
+    
+    inside of main tag:
+    section tag--for section on your page
+    article tag--for an article on your page
+    aside tag for content aside main xontent
+
+
+
+    Whimsical-- create a visual representation of website
+        wireframes
+        ->
+
+    <!-- short cuts;
+     for comment:
+     select..ctrl + /
+     for html structure
+      ! enter
+       -->
+
